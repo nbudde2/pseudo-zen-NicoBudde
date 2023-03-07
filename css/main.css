@@ -1,1 +1,163 @@
 /* Place CSS styles here */
+
+h1{
+    display:flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+h2{
+    display:flex;
+    color: white;
+    justify-content: center;
+    letter-spacing: 10px;
+    padding-top: 6px;
+    margin-bottom: 2px;
+}
+
+.buttongroup{
+    justify-content: center;
+    background-color:#80d2db;
+    margin-bottom:0;
+}
+
+.buttons{
+    display:flex;
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.primarybutton {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #03A696;
+  background-color: #012E40;
+  border: 1px solid #012E40;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all .25s ease;
+}
+
+.primarybutton:hover {
+  color: #012E40;
+  background-color: #4294b5;
+}
+
+/* :focus occurs when you tab into an element */
+.primarybutton:focus {
+  box-shadow: 0 0 0 4px red;
+}
+
+.secondarybutton {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #012E40;
+  background-color: #03A696;
+  border: 1px solid #03A696;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all .25s ease;
+}
+
+.secondarybutton:hover {
+  color: #03A696;
+  background-color: #81f0e5;
+}
+
+/* :focus occurs when you tab into an element */
+.secondarybutton:focus {
+  box-shadow: 0 0 0 4px red;
+}
+
+.errorbutton {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #012E40;
+  background-color: #F28705;
+  border: 1px solid #F28705;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all .25s ease;
+}
+
+.errorbutton:hover {
+  color: #F28705;
+  background-color: #ffd5a2;
+}
+
+/* :focus occurs when you tab into an element */
+.errorbutton:focus {
+  box-shadow: 0 0 0 4px red;
+}
+
+.linkgroup{
+    margin:0 auto;
+    justify-content: center;
+    background-color:#47a7b2;
+}
+
+.links{
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+a{
+    color: #012E40;
+}
+
+a:hover{
+color:#ffc782;
+}
+
+a:visited{
+color:white;
+}
+
+.formgroup{
+    margin:0 auto;
+    justify-content: center;
+    background-color:#135d65;
+}
+
+.savebutton {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #012E40;
+  background-color: #03A696;
+  border: 1px solid #03A696;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all .25s ease;
+}
+
+.savebutton:hover {
+  color: #03A696;
+  background-color: #81f0e5;
+}
+
+/* :focus occurs when you tab into an element */
+.savebutton:focus {
+  box-shadow: 0 0 0 4px red;
+}
+
+label{
+    color:white;
+}
