@@ -51,7 +51,13 @@ h2{
 
 /* :focus occurs when you tab into an element */
 .primarybutton:focus {
-  box-shadow: 0 0 0 4px red;
+  box-shadow: 0 0 0 4px yellow;
+}
+
+.primarybutton:disabled {
+   color: black;
+  background-color: #92999b;
+  cursor: not-allowed;
 }
 
 .secondarybutton {
@@ -75,7 +81,13 @@ h2{
 
 /* :focus occurs when you tab into an element */
 .secondarybutton:focus {
-  box-shadow: 0 0 0 4px red;
+  box-shadow: 0 0 0 4px yellow;
+}
+
+.secondarybutton:disabled {
+  color: black;
+ background-color: #92999b;
+ cursor: not-allowed;
 }
 
 .errorbutton {
@@ -99,7 +111,13 @@ h2{
 
 /* :focus occurs when you tab into an element */
 .errorbutton:focus {
-  box-shadow: 0 0 0 4px red;
+  box-shadow: 0 0 0 4px yellow;
+}
+
+.errorbutton:disabled {
+  color: black;
+ background-color: #92999b;
+ cursor: not-allowed;
 }
 
 .linkgroup{
@@ -126,6 +144,15 @@ color:#ffc782;
 
 a:visited{
 color:white;
+}
+
+a:focus
+{
+  color: #ffc782;
+}
+
+a:disabled{
+  color: black
 }
 
 .formgroup{
@@ -155,9 +182,36 @@ color:white;
 
 /* :focus occurs when you tab into an element */
 .savebutton:focus {
-  box-shadow: 0 0 0 4px red;
+  box-shadow: 0 0 0 4px yellow;
 }
+
+.nameform{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.commentform{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.saveform{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
 
 label{
     color:white;
+    padding-right: 10px;
+}
+
+textarea:invalid{
+  box-shadow: 0 0 0 4px red;
 }
